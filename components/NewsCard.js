@@ -1,14 +1,4 @@
-export default function NewsCard({ item }) {
-    return (
-      <div className="max-w-md bg-white shadow rounded p-4 mb-4">
-        <img src={item.image} className="h-[200px] w-full object-cover rounded" />
-        <h2 className="text-lg font-bold mt-2">{item.title.slice(0, 80)}...</h2>
-        <p className="text-sm text-gray-500 mt-1">{item.pubDate}</p>
-      </div>
-    );
-  }
-
-  import Link from "next/link";
+import Link from "next/link";
 
   export default function NewsCard({ item }) {
     return (
